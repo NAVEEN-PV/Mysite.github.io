@@ -1,0 +1,56 @@
+$(document).ready(function(){
+  $(".tree").click(function(){
+    $(".home-body").fadeOut(500);
+    $(".about-body").fadeOut(1000);
+    $(".books-body").fadeOut(1000);
+    $(".menu-slide").slideUp();
+    $(".tree-body").slideDown(3000);
+  });
+});
+
+$(document).ready(function(){
+  $(".about").click(function(){
+    $(".home-body").fadeOut(500);
+    $(".tree-body").fadeOut(1000);
+    $(".books-body").fadeOut(1000);
+    $(".menu-slide").slideUp();
+    $(".about-body").slideDown(3000);
+  });
+});
+
+
+$(document).ready(function(){
+  $(".home").click(function(){
+    $(".tree-body").fadeOut(1000);
+    $(".about-body").fadeOut(1000);
+    $(".books-body").fadeOut(1000);
+    $(".menu-slide").slideUp();
+    $(".home-body").slideDown(3000);
+  });
+});
+
+$(document).ready(function(){
+  $(".books").click(function(){
+    $(".tree-body").fadeOut(1000);
+    $(".about-body").fadeOut(1000);
+    $(".home-body").fadeOut(500);
+    $(".menu-slide").slideUp();
+    $(".books-body").slideDown(2000);
+  });
+});
+$(document).ready(function(){
+  $(".form-link").click(function(){
+    $(".tree-block").fadeOut(1000);
+    $(".form").slideDown(3000);
+  });
+});
+$(document).ready(function(){
+  $(".menu").click(function(){
+    $(".menu-slide").slideDown("slow");
+  });
+});
+$(document).ready(function(){
+  $(".close").click(function(){
+    $(".menu-slide").slideUp("slow");
+  });
+});

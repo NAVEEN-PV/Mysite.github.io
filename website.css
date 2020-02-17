@@ -1,0 +1,233 @@
+
+body{
+	font-family: cursive;
+	background-image: url("images/images (4).jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	width: 100%;
+}
+
+.header-hover:hover{
+	font-size: 40px;
+}
+.header-img{
+	width: 100%;
+	opacity: .8;
+}
+.menu-slide{
+	display: none;
+}
+.navigation{
+	background: black;
+	border-radius: 20px;
+	font-size: 30px;
+	display: flex;
+	opacity: .7;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+	position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+a{
+	color: white;
+}
+.menu{
+	font-size: 50px;
+	background:linear-gradient(to right,orange,white,white,white,green);
+	position: sticky;
+	top: 0;
+	text-align: center;
+	text-shadow: 5px 5px 5px;
+	color:blue;
+	border-radius: 500px;
+	margin:1%;
+}
+.menu-position{
+	position: absolute;
+	left: 1%;
+	top:20%;
+	font-size: 25px;
+
+
+}
+.header-hover{
+	
+	display: block;
+}
+.heading
+{
+	font-size: 195%;
+	text-shadow: 5px 5px 5px;
+	margin: 3%;
+}
+.blinking{
+    animation:blinking 1.2s infinite;
+    width: 2%;
+}
+@keyframes blinking{
+    0%{     opacity: 1;  }
+    49%{   opacity: 0 ;}
+    60%{    opacity: 1; }
+    99%{    opacity: 0; }
+    100%{   opacity: 1;  }
+}
+footer{
+	clear: both;
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 5px 5px 5px;
+	color: blue;
+	background: linear-gradient(to right,orange,orange,white,white,lightblue,green,green);
+	border-radius: 20px;
+	margin-top: 5%;
+}
+.skin{
+	display:inline-block;
+	margin: 1%;
+	border-radius: 10px;
+	padding: 1%;
+	background: #80808075;
+}
+.block{
+	width: 28%;
+	    box-shadow: 15px 15px 20px inset;
+}
+.img-gutter{
+	width: 50%;
+}
+.container{
+	width: 28%;
+	height: 300px;
+	 box-shadow: 15px 15px 20px inset;
+	overflow: hidden;
+}
+.slider{
+	display: inline;
+	border-radius: 20px;
+	margin: 1%;
+}
+
+.speech{
+	width: 100%;
+}
+
+.tree-block{
+	display: inline-block;
+	width: 57%;
+	margin: 5%;
+
+}
+.tree-body{
+	font-family: fantasy;
+	background: white;
+	background-size: contain;
+	background-attachment: fixed;
+	color: black;
+	margin: 0% 5% 0% 5%;
+	display: none;
+	border-radius: 30px;
+}
+.form{
+	float: right;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 25%;
+	margin: 2%;
+	font-size: 170%;
+	padding: 1% 1% 1% 2%
+}
+.form-elements{
+	display: block;
+	margin: 0% 0% 10% 10%;
+	border: 1px solid black;
+}
+.img-border{
+	border-radius: 10px;
+	margin: 1%;
+}
+.hide{
+	display: none;
+}
+.slogan{
+	color: lightgreen;
+	text-shadow: 2px 2px 2px;
+	font-weight: bolder;
+}
+.about-body{
+	display: none;
+	margin: 0% 10% 0% 10%;
+	background-color: black;
+	overflow: auto;
+	padding: 5%;
+
+}
+.about-right{
+	float: right;
+	width: 60%;
+}
+.about-left{
+	float: left;
+	width: 25%;
+
+}
+.books-body{
+	background-color: black;
+	display: none;
+	margin: 0% 10% 0% 5%;
+	width: 90%;
+
+}
+td{
+	border-bottom: 1px solid white;
+}
+th{
+	border: 1px solid black;
+	background-color: grey;
+	color: black;
+}
+.date{
+	font-size: 30px;
+	font-weight: bolder;
+	color: green;
+}
+.form-link{
+	display: none;
+	font-size: 40px;
+}
+.from-link:hover{
+	font-size: 50px;
+	color: red;
+	text-shadow: 5px 5px 5px;
+
+}
+@keyframes slide {
+  0% {
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(-25%);
+  }
+  50% {
+   transform: translateY(-50%);
+  }
+  75% {
+   transform: translateY(-70%);
+  }
+  100% {
+   transform: translateY(-80%);
+  }
+}
+
+.slide:hover {
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+ 
+  animation-iteration-count: infinite;
+}

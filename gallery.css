@@ -1,0 +1,80 @@
+img{
+    width: 100%;
+}
+.center{
+    margin: 0% 10% 0% 10%;
+}
+body{
+    font-family: cursive;
+    background-image: url("images/images (7).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.header{
+    font-size: 700%;
+    text-align: center;
+    background-image: url("images/flag.jpg");
+    background-repeat:no-repeat;
+    opacity: .8;
+    color: blue;
+    border-radius: 30px;
+    margin: 5%;
+
+
+}
+img:hover{
+    transform: scale(1.2);
+    transition: transfrorm 1s;
+}
+.heading{
+    font-size: 200%;
+    color: black;
+    background: linear-gradient(to right,orange,white,white,white,white,green);
+    opacity: .7;
+    border-radius: 10px;
+    margin: 5%;
+    border: 5px solid white;
+    text-shadow: 5px 5px 5px;
+}
+aside{
+    float: left;
+    width: 60%;
+}
+.left{
+    float: left;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background:linear-gradient(to bottom right,orange,white,white,white,white,green);
+    color: black;
+     box-shadow: 10px 5px 20px inset;
+}
+.left img{
+    width: 60%;
+    padding:15% 0% 0% 15%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 90%;
+  padding: 10px;
+  background:linear-gradient(to bottom right,orange,white,white,white,white,green);
+    color: black;
+    margin: 10% 0% 10% 0%;
+    border-radius: 10px;
+
+}
+.grid-item {
+    
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 5px 20px inset;
+}
+.left{
+    float: right;
+}
